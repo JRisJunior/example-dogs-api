@@ -7,5 +7,6 @@ class DogsController < ApplicationController
       breed: params[:breed]
     )
     dog.save
+    render json: {message: dog}
   end
 end

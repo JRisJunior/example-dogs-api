@@ -19,10 +19,11 @@ Content-Type: application/json
 }
 
 ### Dogs create
-POST http://localhost:3000/photos.json
-Authorization: Bearer 
+POST http://localhost:3000/dogs.json
 Content-Type: application/json
 
 {
-
+  "name": "Fido",
+  "age": "4",
+  "breed": "Bulldog"
 }
