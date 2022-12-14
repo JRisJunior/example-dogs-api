@@ -24,7 +24,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NzExMzU1O
 Content-Type: application/json
 
 {
-  "name": "Fido",
-  "age": "4",
+  "name": "Spike",
+  "age": "2",
   "breed": "Bulldog"
 }
+

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   post "/dogs" => "dogs#create"
+  patch "/dogs/:id" =>"dogs#update"
 
   post "/users" => "users#create"
   post "/sessions" => "sessions#create"

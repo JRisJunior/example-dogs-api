@@ -5,7 +5,8 @@ class DogsController < ApplicationController
       dog = Dog.new(
       name: params[:name],
       age: params[:age],
-      breed: params[:breed]
+      breed: params[:breed],
+      user_id: current_user.id
     )
     dog.save
     render json: {message: dog}
@@ -13,4 +14,5 @@ class DogsController < ApplicationController
     render json: {error: "You must be logged in to create dogs"}
     end
   end
+  
 end
