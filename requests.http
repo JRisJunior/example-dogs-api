@@ -20,7 +20,7 @@ Content-Type: application/json
 
 ### Dogs create
 POST http://localhost:3000/dogs.json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NzExMzU1OTd9.pCtFGyRutClEHC8c1TfNtRjtpkgUJnpajRK5ec2r21I
+Authorization: Bearer 
 Content-Type: application/json
 
 {
